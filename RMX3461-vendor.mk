@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oplus/RMX3461
 
 PRODUCT_COPY_FILES += \
-    vendor/oplus/RMX3461/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
+#    vendor/oplus/RMX3461/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/oplus/RMX3461/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/oplus/RMX3461/proprietary/odm/etc/21695/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/21695/build.default.prop \
     vendor/oplus/RMX3461/proprietary/odm/etc/21695/build.eea.prop:$(TARGET_COPY_OUT_ODM)/etc/21695/build.eea.prop \
